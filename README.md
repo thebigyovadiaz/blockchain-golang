@@ -1,2 +1,2 @@
-# blockchain-golang
-Testing Blockchain Technology with Golang
+# Ethereum Blockchain
+Testing Ethereum Blockchain Technology with Golang
