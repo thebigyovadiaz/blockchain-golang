@@ -10,5 +10,5 @@ func main() {
 	fmt.Println("Hello World - Ethereum Blockchain")
 
 	balance := ether.GetBalanceAt()
-	fmt.Println("balance: ", balance)
+	fmt.Printf("balance: %.2f ETH", balance)
 }
