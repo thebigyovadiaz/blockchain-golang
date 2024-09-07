@@ -16,8 +16,8 @@ func (c *credentials) setCredentials(name, password string) {
 		c.password = password
 	}
 
-	if len(password) > 0 {
-		c.password = password
+	if len(name) > 0 {
+		c.name = name
 	}
 }
 
