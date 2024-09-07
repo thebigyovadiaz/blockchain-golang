@@ -9,6 +9,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 )
 
+// GetBalanceAt allow to get balance in an account
 func GetBalanceAt() *big.Float {
 	address := common.HexToAddress(ganacheAddrAccount)
 	//blockNumber := getBlockByNumber()
